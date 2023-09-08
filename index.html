@@ -1,275 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <script src="https://unpkg.com/scrollreveal"></script>
-        <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
-         <!-- Nav -->
-         <link rel="stylesheet" href="./assets/css/nav.css" />
-         <!-- About me -->
-         <link rel="stylesheet" href="./assets/css/about.css" />
-         <!-- Projects -->
-         <link rel="stylesheet" href="./assets/css/projects.css" />
-         <!-- Footer -->
-         <link rel="stylesheet" href="./assets/css/footer.css" />
-        <title>Portfolio | Amanda Rondina</title>        
-    </head>
- 
-    <body>
-        <div>
-            <!-- Menu -->
-            <input
-                id="close-menu"
-                class="close-menu"
-                type="checkbox"
-                aria-label="close-menu"
-                role="button"
-            />
-            <label
-                class="close-menu-label"
-                for="close-menu"
-                title="close menu"
-            ></label>
-            <div class="bar">
-                <div class="menu-center">
-                    <div class="bar-container centralizer">
-                        <div class="logo left">
-                            <a href="index.html"
-                                >a.</a>
-                        </div>
-                        <nav class="right">
-                            <ul
-                                onclick="getElementById('close-menu').checked=false;"
-                            >
-                                <li class="bar-content"><a href="#about-me">About</a></li>
-                                <li class="bar-content"><a href="#projects">Projects</a></li>
-                                <li class="bar-content"><a href="#footer">Contact</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <!-- Nav -->
+    <link rel="stylesheet" href="./assets/css/nav.css" />
+    <!-- About me -->
+    <link rel="stylesheet" href="./assets/css/about.css" />
+    <!-- Projects -->
+    <link rel="stylesheet" href="./assets/css/projects.css" />
+    <!-- Footer -->
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+    <title>Portfolio | Amanda Rondina</title>
+  </head>
+
+  <body>
+    <div>
+      <!-- Menu -->
+      <input
+        id="close-menu"
+        class="close-menu"
+        type="checkbox"
+        aria-label="close-menu"
+        role="button"
+      />
+      <label
+        class="close-menu-label"
+        for="close-menu"
+        title="close menu"
+      ></label>
+      <div class="bar">
+        <div class="menu-center">
+          <div class="bar-container centralizer">
+            <div class="logo left">
+              <a href="index.html">a.</a>
             </div>
-            <!-- Menu -->
-
-            <!-- Hero -->
-            <section id="hero">
-                <div class="hero">
-                    <div class="hero-container">  
-                            <p class="description">
-                                Hello, I'm </p> 
-                                <section>
-                                    <h1 class="my-name"
-                                    >Amanda <br/> Rondina
-                                    </h1>      
-                                </section>
-                               
-
-                              
-    
-                        </div> 
-                                    <div class="portfolio">
-                                        <a
-                                            href="#projects"
-                                            class="link"
-                                            >projects</a
-                                        >
-                                    </div>     
-                </div>            
-            </section>
-            <!-- Hero -->
-
-            <!-- About me -->
-            <section id="about-me">
-                <div class="about-me-container">
-                    <div class="adjuster-2">
-                        <div class="avatar">
-                            <img
-                                class="avatar"
-                                src="./assets/img/eu-2.jpeg"
-                                alt="Amanda Rondina's cartoon avatar"
-                            />
-                           
-                        </div>
-                        <div class="about-me">
-                            <h2 class="title">About Me</h2> <br />
-                            <p class="paragraph"> I am an Oslo based frontend developer with a strong passion for design and creating engaging web experiences with React. <br/><br/>
-                              
-                        
-                                I have recently
-                                graduated from the Scrimba <a href="https://scrimba.com/certificate/uZY3NPfB/gfrontend"  target="_blank"
-                                rel="noopener noreferrer">Front End Developer </a> bootcamp
-                                and am very enthusiastic about my transition into the world of IT.
-                            </p>
-                        
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- About me -->
-
-            <!-- Projects -->
-           <section id="projects">
-                <div class="projects">
-                    <h2 class="projects-title title">Projects</h2>
-                    <ul class="cards__items">
-                    <li class="cards__item">
-                          <figure class="cards__item__pic-wrap" data-category="React">
-                            <img
-                              class="cards__item__img"
-                              alt="Travel Image"
-                              src="./assets/img/random-password.png"
-                            />
-                          </figure>
-                          <div class="cards__item__info">
-                            <h5 class="cards__item__text"><a
-                                className="cards__item__link"
-                                href="https://github.com/amandarondina"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                              >Random Password Generator</a></h5>
-                          </div>
-                        </Link>
-                      </li>
-
-                      <li class="cards__item">
-                          <figure class="cards__item__pic-wrap" data-category="JavaScript">
-                            <img
-                              class="cards__item__img"
-                              alt="Travel Image"
-                              src="./assets/img/scoreboard.png"
-                            />
-                          </figure>
-                          <div class="cards__item__info">
-                            <h5 class="cards__item__text"><a
-                                className="cards__item__link"
-                                href="https://github.com/amandarondina"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                              >Game Scoreboard</a></h5>
-                          </div>
-                        </Link>
-                      </li>
-
-                      <li class="cards__item">
-                          <figure class="cards__item__pic-wrap" data-category="React">
-                            <img
-                              class="cards__item__img"
-                              alt="Travel Image"
-                              src="./assets/img/todo.png"
-                            />
-                          </figure>
-                          <div class="cards__item__info">
-                            <h5 class="cards__item__text"><a
-                                className="cards__item__link"
-                                href="https://github.com/amandarondina"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                              >Todo App</a></h5>
-                          </div>
-                        </Link>
-                      </li>
-
-                      <li class="cards__item">
-                        <figure class="cards__item__pic-wrap" data-category="React">
-                          <img
-                            class="cards__item__img"
-                            alt="Travel Image"
-                            src="./assets/img/weather-app.png"
-                          />
-                        </figure>
-                        <div class="cards__item__info">
-                          <h5 class="cards__item__text"><a
-                              className="cards__item__link"
-                              href="https://github.com/amandarondina"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >Weather Forecast</a></h5>
-                        </div>
-                      </Link>
-                    </li>
-
-                    <li class="cards__item">
-                        <figure class="cards__item__pic-wrap" data-category="React">
-                          <img
-                            class="cards__item__img"
-                            alt="Travel Image"
-                            src="./assets/img/oslove.png"
-                          />
-                        </figure>
-                        <div class="cards__item__info">
-                          <h5 class="cards__item__text"><a
-                              className="cards__item__link"
-                              href="https://github.com/amandarondina"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >Oslo City Guide</a></h5>
-                        </div>
-                      </Link>
-                    </li>
-
-                    <li class="cards__item">
-                        <figure class="cards__item__pic-wrap" data-category="Vanilla JavaScript">
-                          <img
-                            class="cards__item__img"
-                            alt="Travel Image"
-                            src="./assets/img/color-scheme.png"
-                          />
-                        </figure>
-                        <div class="cards__item__info">
-                          <h5 class="cards__item__text"><a
-                              className="cards__item__link"
-                              href="https://github.com/amandarondina"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >Color Palette Generator</a></h5>
-                        </div>
-                      </Link>
-                    </li>
-                    </ul>
-
-
-                </div>
-            </section> 
-            <!-- Projects -->
-
-            
-            <!-- footer -->
-            <footer class="footer" id="footer">
-                <div class="footer-container">
-                    <div class="contacts">
-                        <h2 class="title">Get in Touch</h2>
-                        <a href="mailto:amandasrnd@gmail.com" class="email">amandasrnd@gmail.com</a>
-
-                        <div class="icons">
-                            <div class="links">
-                                <a
-                                    href="https://github.com/amandarondina"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    aria-label="Github Profile Link"
-                                >
-                                <ion-icon name="logo-github" class="logo-github"></ion-icon>
-                                </a>
-                            </div>
-                            <div class="links">
-                                <a
-                                    href="https://www.linkedin.com/in/amandarondina/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    aria-label="Linkedin Profile Link"
-                                > <ion-icon name="logo-linkedin" class="logo-linkedin"></ion-icon>
-                                
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </footer>
-            <!-- footer -->
+            <nav class="right">
+              <ul onclick="getElementById('close-menu').checked=false;">
+                <li class="bar-content"><a href="#about-me">About</a></li>
+                <li class="bar-content"><a href="#projects">Projects</a></li>
+                <li class="bar-content"><a href="#footer">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
         </div>
-        <script src="./assets/js/scroll.js"></script>
+      </div>
+      <!-- Menu -->
 
-    </body>
+      <!-- Hero -->
+      <section id="hero">
+        <div class="hero">
+          <div class="hero-container">
+            <p class="description">Hello, I'm</p>
+            <section>
+              <h1 class="my-name">Amanda Rondina</h1>
+            </section>
+          </div>
+          <div class="portfolio">
+            <a href="#projects" class="link">projects</a>
+          </div>
+        </div>
+      </section>
+      <!-- Hero -->
+
+      <!-- About me -->
+      <section id="about-me">
+        <div class="about-me-container">
+          <div class="adjuster-2">
+            <div class="avatar">
+              <img
+                class="avatar"
+                src="./assets/img/eu-2.jpeg"
+                alt="Amanda Rondina's cartoon avatar"
+              />
+            </div>
+            <div class="about-me">
+              <h2 class="title">About Me</h2>
+              <br />
+              <p class="paragraph">
+                I am an Oslo based frontend developer with a passion for minimal
+                design and creating engaging web experiences with React.
+                <br /><br />
+
+                I recently graduated from the Scrimba
+                <a
+                  href="https://scrimba.com/certificate/uZY3NPfB/gfrontend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Front End Developer
+                </a>
+                bootcamp.<br /><br />
+                When I'm not coding, you might catch me in the act of video
+                editting or hunched over a table, wrestling with puzzles like a
+                modern-day Sherlock.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About me -->
+
+      <!-- Projects -->
+      <section id="projects">
+        <div class="projects">
+          <h2 class="projects-title title">Projects</h2>
+
+          <ul class="cards__items">
+            <li class="cards__item">
+              <a
+                href="https://github.com/amandarondina/password-generator"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <figure class="cards__item__pic-wrap" data-category="React">
+                  <img
+                    class="cards__item__img"
+                    alt="Travel Image"
+                    src="./assets/img/random-password.png"
+                  /></figure
+              ></a>
+              <div class="cards__item__info">
+                <h5 class="cards__item__text">
+                  <a
+                    class="cards__item__link"
+                    href="https://github.com/amandarondina/password-generator"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Random Password Generator</a
+                  >
+                </h5>
+              </div>
+            </li>
+
+            <li class="cards__item">
+              <a
+                href="https://github.com/amandarondina/game-scoreboard"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <figure
+                  class="cards__item__pic-wrap"
+                  data-category="JavaScript"
+                >
+                  <img
+                    class="cards__item__img"
+                    alt="Travel Image"
+                    src="./assets/img/scoreboard.png"
+                  /></figure
+              ></a>
+              <div class="cards__item__info">
+                <h5 class="cards__item__text">
+                  <a
+                    class="cards__item__link"
+                    href="https://github.com/amandarondina/game-scoreboard"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Game Scoreboard</a
+                  >
+                </h5>
+              </div>
+            </li>
+
+            <li class="cards__item">
+              <a
+                href="https://github.com/amandarondina/todo-list"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <figure class="cards__item__pic-wrap" data-category="React">
+                  <img
+                    class="cards__item__img"
+                    alt="Travel Image"
+                    src="./assets/img/todo.png"
+                  /></figure
+              ></a>
+
+              <div class="cards__item__info">
+                <h5 class="cards__item__text">
+                  <a
+                    class="cards__item__link"
+                    href="https://github.com/amandarondina/todo-list"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Todo App</a
+                  >
+                </h5>
+              </div>
+            </li>
+
+            <li class="cards__item">
+              <a
+                href="https://github.com/amandarondina/react-weather-app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <figure class="cards__item__pic-wrap" data-category="React">
+                  <img
+                    class="cards__item__img"
+                    alt="Travel Image"
+                    src="./assets/img/weather-app.png"
+                  /></figure
+              ></a>
+              <div class="cards__item__info">
+                <h5 class="cards__item__text">
+                  <a
+                    class="cards__item__link"
+                    href="https://github.com/amandarondina/react-weather-app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Weather Forecast</a
+                  >
+                </h5>
+              </div>
+            </li>
+
+            <li class="cards__item">
+              <a
+                href="https://github.com/amandarondina/oslo-city-guide"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <figure class="cards__item__pic-wrap" data-category="React">
+                  <img
+                    class="cards__item__img"
+                    alt="Travel Image"
+                    src="./assets/img/oslove.png"
+                  /></figure
+              ></a>
+              <div class="cards__item__info">
+                <h5 class="cards__item__text">
+                  <a
+                    class="cards__item__link"
+                    href="https://github.com/amandarondina/oslo-city-guide"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Oslo City Guide</a
+                  >
+                </h5>
+              </div>
+            </li>
+
+            <li class="cards__item">
+              <a
+                href="https://github.com/amandarondina/color-scheme-maker"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <figure
+                  class="cards__item__pic-wrap"
+                  data-category="Vanilla JavaScript"
+                >
+                  <img
+                    class="cards__item__img"
+                    alt="Travel Image"
+                    src="./assets/img/color-scheme.png"
+                  /></figure
+              ></a>
+              <div class="cards__item__info">
+                <h5 class="cards__item__text">
+                  <a
+                    class="cards__item__link"
+                    href="https://github.com/amandarondina/color-scheme-maker"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Color Palette Generator</a
+                  >
+                </h5>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Projects -->
+
+      <!-- footer -->
+      <footer class="footer" id="footer">
+        <div class="footer-container">
+          <div class="contacts">
+            <h2 class="title">Get in Touch</h2>
+            <a href="mailto:amandasrnd@gmail.com" class="email"
+              >amandasrnd@gmail.com</a
+            >
+
+            <div class="icons">
+              <div class="links">
+                <a
+                  href="https://github.com/amandarondina"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Github Profile Link"
+                >
+                  <ion-icon name="logo-github" class="logo-github"></ion-icon>
+                </a>
+              </div>
+              <div class="links">
+                <a
+                  href="https://www.linkedin.com/in/amandarondina/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Linkedin Profile Link"
+                >
+                  <ion-icon
+                    name="logo-linkedin"
+                    class="logo-linkedin"
+                  ></ion-icon>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- footer -->
+    </div>
+    <script src="./assets/js/scroll.js"></script>
+  </body>
 </html>

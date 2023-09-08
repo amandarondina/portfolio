@@ -1,35 +1,37 @@
 #projects{
+  background-color: rgba(0, 0, 0, 0.579);
   display: flex;
   justify-content: center;
 }
  
   .projects {
     display: flex; 
-    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    max-width: 70dvw;
+    width: 100%;
+    max-width: 80rem;
   }
   
 .projects-title{
- margin: 4.5rem;
+ margin-top: 2.5rem;
+ padding: 3rem;
 }
 
 
 
 
 
-
 .cards__items {
+    padding-bottom: 3rem;
     display: flex;
     justify-content: center;
     list-style: none;
+    gap: 1rem;
    }
   
    .cards__item {
-    width: 25rem;
-    margin: .6rem;
+    width: 20rem;
    }
   
   
@@ -57,7 +59,7 @@
     font-weight: 700;
     letter-spacing: 2px;
     color: #fff;
-    background-color: #3f3f3f;
+    background-color: var(--background);
     box-sizing: border-box;
   }
   
@@ -83,37 +85,13 @@
   
   .cards__item__info a {
     font-size: 1rem;
-    color: var(--text2);
+    color: var(--background);
     text-decoration: none;
     display: block;
     font-weight: 600;
-    background-color: var(--background);
+    background-color: var(--text);
     padding: 1.3rem;
   }
 
 
-  @media (max-width:1200px) {
 
- 
-    .projects {
-      padding: 0 .5rem 0 .5rem;
-    }
-    
-    .cards__item {
-      width: 22rem;
-      margin: .6rem;
-     }
-  
-  
-    }
-  
-@media (max-width:850px) {
-
-  
-  .cards__item {
-    width: 20rem;
- 
-   }
-
-
-  }
