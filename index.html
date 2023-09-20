@@ -6,7 +6,7 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
     <!-- Nav -->
-    <link rel="stylesheet" href="./assets/css/nav.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
     <!-- About me -->
     <link rel="stylesheet" href="./assets/css/about.css" />
     <!-- Projects -->
@@ -52,15 +52,23 @@
       <!-- Hero -->
       <section id="hero">
         <div class="hero">
+          
           <div class="hero-container">
-            <p class="description">Hello, I'm</p>
-            <section>
-              <h1 class="my-name">Amanda Rondina</h1>
+           
+            <section class="my-name"> 
+              Amanda Rondina
             </section>
-          </div>
-          <div class="portfolio">
-            <a href="#projects" class="link">projects</a>
-          </div>
+          
+              <section class="avatar">
+                <img
+                  src="./assets/img/eu-2.jpeg"
+                  alt="Amanda Rondina's cartoon avatar"
+                />
+              </section>
+          
+        </div>
+        <div class="portfolio">
+          <a href="#projects" class="link">projects</a>
         </div>
       </section>
       <!-- Hero -->
@@ -68,14 +76,6 @@
       <!-- About me -->
       <section id="about-me">
         <div class="about-me-container">
-          <div class="adjuster-2">
-            <div class="avatar">
-              <img
-                class="avatar"
-                src="./assets/img/eu-2.jpeg"
-                alt="Amanda Rondina's cartoon avatar"
-              />
-            </div>
             <div class="about-me">
               <h2 class="title">About Me</h2>
               <br />
@@ -83,7 +83,6 @@
                 I am an Oslo based frontend developer with a passion for minimal
                 design and creating engaging web experiences with React.
                 <br /><br />
-
                 I recently graduated from the Scrimba
                 <a
                   href="https://scrimba.com/certificate/uZY3NPfB/gfrontend"
@@ -95,8 +94,7 @@
                 When I'm not coding, you might catch me in the act of video
                 editting or hunched over a table, wrestling with puzzles like a
                 modern-day Sherlock.
-              </p>
-            </div>
+              </p>  
           </div>
         </div>
       </section>
@@ -104,175 +102,120 @@
 
       <!-- Projects -->
       <section id="projects">
-        <div class="projects">
-          <h2 class="projects-title title">Projects</h2>
-
-          <ul class="cards__items">
-            <li class="cards__item">
-              <a
-                href="https://github.com/amandarondina/password-generator"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <figure class="cards__item__pic-wrap" data-category="React">
-                  <img
-                    class="cards__item__img"
-                    alt="Travel Image"
-                    src="./assets/img/random-password.png"
-                  /></figure
-              ></a>
-              <div class="cards__item__info">
-                <h5 class="cards__item__text">
-                  <a
-                    class="cards__item__link"
-                    href="https://github.com/amandarondina/password-generator"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >Random Password Generator</a
-                  >
-                </h5>
-              </div>
-            </li>
-
-            <li class="cards__item">
-              <a
-                href="https://github.com/amandarondina/game-scoreboard"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <figure
-                  class="cards__item__pic-wrap"
-                  data-category="JavaScript"
+        <div class="projects-container">
+          <div class="projects">
+            <h2 class="title">Projects</h2>
+            <ul class="cards__items">
+              <li class="cards__item">
+                <a
+                  href="https://github.com/amandarondina/password-generator"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <img
-                    class="cards__item__img"
-                    alt="Travel Image"
-                    src="./assets/img/scoreboard.png"
-                  /></figure
-              ></a>
-              <div class="cards__item__info">
-                <h5 class="cards__item__text">
-                  <a
-                    class="cards__item__link"
-                    href="https://github.com/amandarondina/game-scoreboard"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >Game Scoreboard</a
-                  >
-                </h5>
-              </div>
-            </li>
-
-            <li class="cards__item">
-              <a
-                href="https://github.com/amandarondina/todo-list"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <figure class="cards__item__pic-wrap" data-category="React">
-                  <img
-                    class="cards__item__img"
-                    alt="Travel Image"
-                    src="./assets/img/todo.png"
-                  /></figure
-              ></a>
-
-              <div class="cards__item__info">
-                <h5 class="cards__item__text">
-                  <a
-                    class="cards__item__link"
-                    href="https://github.com/amandarondina/todo-list"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >Todo App</a
-                  >
-                </h5>
-              </div>
-            </li>
-
-            <li class="cards__item">
-              <a
-                href="https://github.com/amandarondina/react-weather-app"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <figure class="cards__item__pic-wrap" data-category="React">
-                  <img
-                    class="cards__item__img"
-                    alt="Travel Image"
-                    src="./assets/img/weather-app.png"
-                  /></figure
-              ></a>
-              <div class="cards__item__info">
-                <h5 class="cards__item__text">
-                  <a
-                    class="cards__item__link"
-                    href="https://github.com/amandarondina/react-weather-app"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >Weather Forecast</a
-                  >
-                </h5>
-              </div>
-            </li>
-
-            <li class="cards__item">
-              <a
-                href="https://github.com/amandarondina/oslo-city-guide"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <figure class="cards__item__pic-wrap" data-category="React">
-                  <img
-                    class="cards__item__img"
-                    alt="Travel Image"
-                    src="./assets/img/oslove.png"
-                  /></figure
-              ></a>
-              <div class="cards__item__info">
-                <h5 class="cards__item__text">
-                  <a
-                    class="cards__item__link"
-                    href="https://github.com/amandarondina/oslo-city-guide"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >Oslo City Guide</a
-                  >
-                </h5>
-              </div>
-            </li>
-
-            <li class="cards__item">
-              <a
-                href="https://github.com/amandarondina/color-scheme-maker"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <figure
-                  class="cards__item__pic-wrap"
-                  data-category="JavaScript"
+                  <figure class="cards__item__pic-wrap" data-category="Password Generator">
+                    <img
+                      class="cards__item__img"
+                      alt="Travel Image"
+                      src="./assets/img/random-password.png"
+                    /></figure
+                ></a>
+               
+              </li>
+  
+              <li class="cards__item">
+                <a
+                  href="https://github.com/amandarondina/game-scoreboard"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <img
-                    class="cards__item__img"
-                    alt="Travel Image"
-                    src="./assets/img/color-scheme.png"
-                  /></figure
-              ></a>
-              <div class="cards__item__info">
-                <h5 class="cards__item__text">
-                  <a
-                    class="cards__item__link"
-                    href="https://github.com/amandarondina/color-scheme-maker"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >Color Palette Generator</a
+                  <figure
+                    class="cards__item__pic-wrap"
+                    data-category="Game Scoreboard"
                   >
-                </h5>
-              </div>
-            </li>
-          </ul>
+                    <img
+                      class="cards__item__img"
+                      alt="Travel Image"
+                      src="./assets/img/scoreboard.png"
+                    /></figure
+                ></a>
+                
+              </li>
+  
+              <li class="cards__item">
+                <a
+                  href="https://github.com/amandarondina/todo-list"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <figure class="cards__item__pic-wrap" data-category="Todo List">
+                    <img
+                      class="cards__item__img"
+                      alt="Travel Image"
+                      src="./assets/img/todo.png"
+                    /></figure
+                ></a>
+  
+              
+              </li>
+  
+              <li class="cards__item">
+                <a
+                  href="https://github.com/amandarondina/react-weather-app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <figure class="cards__item__pic-wrap" data-category="React">
+                    <img
+                      class="cards__item__img"
+                      alt="Travel Image"
+                      src="./assets/img/weather-app.png"
+                    /></figure
+                ></a>
+               
+              </li>
+  
+              <li class="cards__item">
+                <a
+                  href="https://github.com/amandarondina/oslo-city-guide"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <figure class="cards__item__pic-wrap" data-category="City Guide">
+                    <img
+                      class="cards__item__img"
+                      alt="Travel Image"
+                      src="./assets/img/oslove.png"
+                    /></figure
+                ></a>
+                
+              </li>
+  
+              <li class="cards__item">
+                <a
+                  href="https://github.com/amandarondina/color-scheme-maker"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <figure
+                    class="cards__item__pic-wrap"
+                    data-category="Color Scheme Generator"
+                  >
+                    <img
+                      class="cards__item__img"
+                      alt="Travel Image"
+                      src="./assets/img/color-scheme.png"
+                    /></figure
+                ></a>
+              </li>
+            </ul> 
+            
+            
+          </div>
         </div>
       </section>
+          
+
+    
       <!-- Projects -->
 
       <!-- footer -->
